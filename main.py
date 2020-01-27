@@ -1,11 +1,14 @@
-#My implimentation of FizzBuzz
+#My implementation of FizzBuzz
 
-for i in range(9000):
+fizz = "Fizz"
+buzz = "Buzz"
+
+for i in range(100):
 	if i % 3 == 0 and i % 5 == 0:
-		print("FizzBuzz")
+		print(fizz+buzz)
 	elif i % 3 == 0:
-		print("Fizz")
+		print(fizz)
 	elif i % 5 == 0:
-		print("Buzz")
+		print(buzz)
 	else:
 		print(i)
